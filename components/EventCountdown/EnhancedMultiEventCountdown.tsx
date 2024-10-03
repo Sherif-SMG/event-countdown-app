@@ -236,12 +236,12 @@ export default function EnhancedMultiEventCountdown() {
       `}</style>
       <Card className="w-full max-w-3xl glassmorphism shadow-xl">
         <CardHeader className="flex flex-row justify-between items-center border-b border-gray-700">
-          <CardTitle className="text-4xl font-bold text-pink-200">
-            List Of Event Countdown
+          <CardTitle className="text-5xl font-bold text-pink-200 border-b-orange-300">
+            Event Countdown
           </CardTitle>
           <Button
             onClick={() => setShowAddEvent(!showAddEvent)}
-            className="gradient-button text-white transition-all duration-300 text-lg px-6 py-3"
+            className="gradient-button text-white transition-all duration-300 text-lg px-6 py-3 flex items-center"
           >
             <PlusCircle className="mr-2 h-6 w-6" /> Add New Event
           </Button>
@@ -289,7 +289,7 @@ export default function EnhancedMultiEventCountdown() {
                 </div>
                 <Button
                   type="submit"
-                  className="w-full gradient-button text-white transition-all duration-300 text-lg py-6"
+                  className="w-full gradient-button text-white transition-all duration-300 text-lg py-4"
                 >
                   Add Event
                 </Button>

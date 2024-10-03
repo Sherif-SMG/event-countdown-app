@@ -25,3 +25,20 @@ body {
     text-wrap: balance;
   }
 }
+
+.date-input::-webkit-calendar-picker-indicator,
+.time-input::-webkit-calendar-picker-indicator {
+  filter: invert(70%);
+  opacity: 0.7;
+}
+
+.date-input::-moz-calendar-picker-indicator,
+.time-input::-moz-calendar-picker-indicator {
+  filter: invert(70%);
+  opacity: 0.7;
+}
+
+.date-input::-ms-clear,
+.time-input::-ms-clear {
+  display: none;
+}
